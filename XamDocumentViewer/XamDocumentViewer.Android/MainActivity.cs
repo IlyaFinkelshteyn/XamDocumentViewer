@@ -2,6 +2,7 @@
 using Android.Content;
 using Android.Content.PM;
 using Android.Database;
+using Android.Gms.Ads;
 using Android.OS;
 using Android.Provider;
 using Android.Runtime;
@@ -31,7 +32,7 @@ namespace XamDocumentViewer.Droid
 			base.OnCreate(bundle);
 
 			global::Xamarin.Forms.Forms.Init(this, bundle);
-			//MobileAds.Initialize(ApplicationContext, "ca-app-pub-5565829267699786~3193049561");
+			MobileAds.Initialize(ApplicationContext, "ca-app-pub-5565829267699786~3193049561");
 			Tuple<Stream, string> fileDetails = GetFileStreamAndFileType();
 
 			if (fileDetails.Item1 == null)

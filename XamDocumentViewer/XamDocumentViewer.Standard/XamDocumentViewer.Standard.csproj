@@ -5,10 +5,15 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Syncfusion.Xamarin.Compression" Version="15.3.0.33">
+      <NoWarn>NU1701</NoWarn>
+    </PackageReference>
     <PackageReference Include="Syncfusion.Xamarin.DocIO" Version="15.3.0.33">
       <NoWarn>NU1701</NoWarn>
     </PackageReference>
-    <PackageReference Include="Xam.FormsPlugin.AdMobView" Version="1.0.23" />
-    <PackageReference Include="Xamarin.Forms" Version="2.4.0.18342" />
+    <PackageReference Include="Xam.FormsPlugin.AdMobView" Version="1.0.23">
+      <NoWarn>NU1701</NoWarn>
+    </PackageReference>
+    <PackageReference Include="Xamarin.Forms" Version="2.4.0.38779" />
   </ItemGroup>
 </Project>
