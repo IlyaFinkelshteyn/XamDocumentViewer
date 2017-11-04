@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:XamDocumentViewer.Standard"
+			 xmlns:controls="clr-namespace:XamDocumentViewer.Standard.Controls;assembly=XamDocumentViewer.Standard"
+             x:Class="XamDocumentViewer.Standard.MainPage">
+    <ContentPage.Content>
+		<StackLayout>
+			<ActivityIndicator x:Name="LoadingSpinner"
+                               Color="Black"
+                               VerticalOptions="CenterAndExpand"
+                               HorizontalOptions="CenterAndExpand" />
+			<controls:ResponsiveWebView x:Name="webView" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" />
+			<!--<abstractions:AdMobView AdUnitId="ca-app-pub-5565829267699786/4314559540" VerticalOptions="End" />-->
+			<controls:AdControlView VerticalOptions="End" />
+		</StackLayout>
+	</ContentPage.Content>
+</ContentPage>
