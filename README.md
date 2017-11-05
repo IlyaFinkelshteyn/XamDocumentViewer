@@ -9,3 +9,8 @@ Features:
 - Zoom in/out support with the help of gestures.
 - Images, etc are supported.
 - Open source project.
+
+
+You can contribute to this project through PR. PR is welcome.
+
+You can file a bug or request a feature by creating a issue. Thanks!!!
