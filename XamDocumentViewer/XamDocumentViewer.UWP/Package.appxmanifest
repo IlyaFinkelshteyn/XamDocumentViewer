@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Package xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" IgnorableNamespaces="uap mp">
-  <Identity Name="1cc572d0-73d4-473e-a417-915518323488" Publisher="CN=Tushar" Version="1.0.0.0" />
-  <mp:PhoneIdentity PhoneProductId="1cc572d0-73d4-473e-a417-915518323488" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
+  <Identity Name="38806TusharKoshti.MyDocumentViewer" Publisher="CN=BE70A07A-CB3A-494E-86FA-451647E2B4C5" Version="1.1.0.0" />
+  <mp:PhoneIdentity PhoneProductId="6a69bec1-ed7b-44a8-9690-2f1c20ee0755" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
-    <DisplayName>XamDocumentViewer.UWP</DisplayName>
-    <PublisherDisplayName>Tushar</PublisherDisplayName>
+    <DisplayName>My Document Viewer</DisplayName>
+    <PublisherDisplayName>Tushar Koshti</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
   <Dependencies>
@@ -16,7 +16,7 @@
   <Applications>
     <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="XamDocumentViewer.UWP.App">
       <uap:VisualElements DisplayName="My Document Viewer" Square150x150Logo="Assets\Square150x150Logo.png" Square44x44Logo="Assets\Square44x44Logo.png" Description="My Document Viewer helps to open word files." BackgroundColor="transparent">
-        <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png">
+        <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png" Square310x310Logo="Assets\LargeTile.png" Square71x71Logo="Assets\SmallTile.png">
         </uap:DefaultTile>
         <uap:SplashScreen Image="Assets\SplashScreen.png" />
       </uap:VisualElements>

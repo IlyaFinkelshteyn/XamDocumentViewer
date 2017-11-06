@@ -2,8 +2,7 @@
   "dependencies": {
     "Microsoft.NETCore.UniversalWindowsPlatform": "6.0.1",
     "Syncfusion.Xamarin.DocIO": "15.3.0.33",
-    "Xam.FormsPlugin.AdMobView": "1.0.23",
-    "Xamarin.Forms": "2.4.0.18342"
+    "Xamarin.Forms": "2.4.0.38779"
   },
   "frameworks": {
     "uap10.0.16299": {}
